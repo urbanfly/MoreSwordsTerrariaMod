@@ -1,43 +1,46 @@
-﻿using Terraria;
-using Terraria.ID;
+﻿using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace More_Swords_Mod.Items
 {
-    public class Biome_Blade : ModItem
+    public class SpikeBolt : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Biome blade");
-            Tooltip.SetDefault("It is infused with the power of all biomes.");
+            DisplayName.SetDefault("Spike Bolt");
+            Tooltip.SetDefault("Careful not to point this at yourself..");
         }
 
         public override void SetDefaults()
         {
-            item.damage = 100;
-            item.melee = true;
+            item.damage = 40;
+            item.melee = false;
             item.width = 40;
             item.height = 40;
             item.useTime = 12;
             item.useAnimation = 20;
-            item.useStyle = 1;
+            item.useStyle = 5;
             item.knockBack = 6;
             item.value = 10000;
             item.rare = 2;
+            item.mana = 5;
             item.UseSound = SoundID.Item1;
-            item.autoReuse = true;
+            item.autoReuse = false;
+            item.shoot = mod.ProjectileType("SpikeBoltProjectile");
+            item.shootSpeed = 8f ;
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "Desert_Scourge", 1);
-            recipe.AddIngredient(ItemID.LightsBane, 1);
-            recipe.AddIngredient(ItemID.BladeofGrass, 1);
-            recipe.AddIngredient(null, "Frost_Sword", 1);
+            //recipe.AddIngredient(ItemID.Spike, 5);
+            recipe.AddIngredient(ItemID.FallenStar, 3);
+           // recipe.AddIngredient(ItemID.Book, 1);
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
     }
 }
+
+

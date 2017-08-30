@@ -38,6 +38,7 @@
     <Compile Include="Items\Biome_Blade.cs" />
     <Compile Include="Items\Desert_Scourge.cs" />
     <Compile Include="More_Swords_Mod.cs" />
+    <Compile Include="Items\SpikeBolt.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -67,6 +68,8 @@
     <Content Include="Items\Biome_Blade.png" />
     <Content Include="Items\Desert_Scourge.png" />
     <Content Include="Items\FrostSword.png" />
+    <Content Include="Items\SpikeBolt.png" />
+    <Content Include="Items\SpikeBoltProjectile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

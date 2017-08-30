@@ -13,7 +13,7 @@ namespace More_Swords_Mod.Items
 
 		public override void SetDefaults()
 		{
-			item.damage = 99999;
+			item.damage = 20;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;

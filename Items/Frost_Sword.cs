@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace More_Swords_Mod.Items
 {
-    public class FrostSword : ModItem
+    public class Frost_Sword : ModItem
     {
         public override void SetStaticDefaults()
         {
