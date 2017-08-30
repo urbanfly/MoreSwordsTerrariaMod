@@ -37,6 +37,7 @@
     <Compile Include="Items\Frost_Sword.cs" />
     <Compile Include="Items\Biome_Blade.cs" />
     <Compile Include="Items\Desert_Scourge.cs" />
+    <Compile Include="Items\SpikeBoltProjectile.cs" />
     <Compile Include="More_Swords_Mod.cs" />
     <Compile Include="Items\SpikeBolt.cs" />
   </ItemGroup>
