@@ -64,7 +64,7 @@
   <ItemGroup>
     <Content Include="build.txt" />
     <Content Include="description.txt" />
-    <Content Include="Items\Biome_Blade.bmp" />
+    <Content Include="Items\Biome_Blade.png" />
     <Content Include="Items\Desert_Scourge.png" />
     <Content Include="Items\FrostSword.png" />
   </ItemGroup>

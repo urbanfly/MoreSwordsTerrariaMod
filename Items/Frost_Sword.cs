@@ -30,7 +30,7 @@ namespace More_Swords_Mod.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.IronBar, 7);
+            recipe.AddIngredient(ItemID.IronBar, 5);
             recipe.AddIngredient(ItemID.IceBlock, 10);
             recipe.AddIngredient(ItemID.Shiverthorn, 3);
             recipe.AddTile(TileID.WorkBenches);
