@@ -34,12 +34,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Items\AmberStaff.cs" />
+    <Compile Include="Items\Corruptraumatize.cs" />
     <Compile Include="Items\Frost_Sword.cs" />
     <Compile Include="Items\Biome_Blade.cs" />
     <Compile Include="Items\Desert_Scourge.cs" />
+    <Compile Include="Items\Paper.cs" />
     <Compile Include="Items\SpikeBoltProjectile.cs" />
+    <Compile Include="Items\WyvernPet.cs" />
+    <Compile Include="Items\WyvernPetBuff.cs" />
+    <Compile Include="Items\WyvernPetCall.cs" />
     <Compile Include="More_Swords_Mod.cs" />
     <Compile Include="Items\SpikeBolt.cs" />
+    <Compile Include="Items\SplinterTome.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -64,13 +71,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Items\AmberStaff.png" />
+    <Content Include="Items\AmberStaffProjectile.png" />
     <Content Include="build.txt" />
     <Content Include="description.txt" />
     <Content Include="Items\Biome_Blade.png" />
+    <Content Include="Items\Corruptraumatize.png" />
     <Content Include="Items\Desert_Scourge.png" />
     <Content Include="Items\FrostSword.png" />
     <Content Include="Items\SpikeBolt.png" />
     <Content Include="Items\SpikeBoltProjectile.png" />
+    <Content Include="Items\SplinterBoltProjectile.png" />
+    <Content Include="Items\SplinterTome.png" />
+    <Content Include="Items\WyvernPet.png" />
+    <Content Include="Items\WyvernPetBuff.png" />
+    <Content Include="Items\WyvernPetCall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
