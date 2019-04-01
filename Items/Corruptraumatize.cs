@@ -1,4 +1,4 @@
-﻿using Terraria;
+﻿/*using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
  
@@ -57,6 +57,6 @@ namespace More_Swords_Mod.Items
           //  npc.damage - (int)(npc.damage * 0.6f *); // boss damage in expert mode
         }
     }
-}
+}*/
 
 

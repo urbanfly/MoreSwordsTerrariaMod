@@ -86,6 +86,7 @@
     <Content Include="Items\WyvernPet.png" />
     <Content Include="Items\WyvernPetBuff.png" />
     <Content Include="Items\WyvernPetCall.png" />
+    <Content Include="Items\Paper.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
